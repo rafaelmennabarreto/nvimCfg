@@ -12,7 +12,5 @@ set background=dark
 set number
 set relativenumber
 
-let mapleader="\<space>"
-nnoremap <leader>; A;<esc>
-noremap <leader>sv :source ~/.config/nvim/init.vim<cr>
-noremap <f2> :NERDTreeToggle<cr>
+" Sources
+source ~/.config/nvim/keybindings.vim  " Vim keybindg config
