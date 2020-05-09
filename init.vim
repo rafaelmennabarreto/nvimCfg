@@ -1,16 +1,9 @@
-call plug#begin()	
-	Plug 'morhetz/gruvbox'	
-	Plug 'sheerun/vim-polyglot'
-	Plug 'ncm2/ncm2'
-	Plug 'jiangmiao/auto-pairs'
-	Plug 'preservim/nerdtree'
-call plug#end()
+" Sources
+source ~/.config/nvim/keybindings.vim  " Vim keybindg config
+source ~/.config/nvim/plugins.vim " Plug config
+source ~/.config/nvim/airline/airline.vim " Airline plugin theme
+source ~/.config/nvim/plug-config/coc.vim " Autocomplete for vim
+source ~/.config/nvim/prettier/prettier.vim " prettier config for vim
 
 colorscheme gruvbox
 set background=dark
-
-set number
-set relativenumber
-
-" Sources
-source ~/.config/nvim/keybindings.vim  " Vim keybindg config
