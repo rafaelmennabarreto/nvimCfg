@@ -4,6 +4,9 @@ source ~/.config/nvim/plugins.vim " Plug config
 source ~/.config/nvim/airline/airline.vim " Airline plugin theme
 source ~/.config/nvim/plug-config/coc.vim " Autocomplete for vim
 source ~/.config/nvim/prettier/prettier.vim " prettier config for vim
+source ~/.config/nvim/closeTagCfg.vim " autoclose config
+
 
 colorscheme gruvbox
 set background=dark
+set hidden

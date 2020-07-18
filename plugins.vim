@@ -9,8 +9,10 @@ call plug#begin()
         Plug 'neoclide/coc.nvim'
         Plug 'vim-airline/vim-airline'
         Plug 'vim-airline/vim-airline-themes'
-	Plug 'ryanoasis/vim-devicons'
-	Plug 'prettier/vim-prettier'
-	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	    Plug 'ryanoasis/vim-devicons'
+	    Plug 'prettier/vim-prettier'
+        Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+        Plug 'junegunn/fzf.vim'
+        Plug 'alvan/vim-closetag'
 call plug#end()
 
