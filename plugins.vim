@@ -5,6 +5,7 @@ call plug#begin()
         Plug 'sheerun/vim-polyglot'
         Plug 'ncm2/ncm2'
         Plug 'jiangmiao/auto-pairs'
+        Plug 'alvan/vim-closetag'
         Plug 'preservim/nerdtree'
         Plug 'neoclide/coc.nvim'
         Plug 'vim-airline/vim-airline'
